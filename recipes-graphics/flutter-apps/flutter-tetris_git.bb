@@ -1,10 +1,4 @@
 LICENSE = "CLOSED"
-#LICENSE = "MIT"
-#LIC_FILES_CHKSUM = "file://LICENSE-MIT;md5=09b77fb74986791a3d4a0e746a37d88f"
-
-#LIC_FILES_CHKSUM = "file://LICENSE;md5=7e9e54c31cefc5b0e5186e7ada75ea2ece4496ab"
-#LICENSE = "BSD-3-Clause"
-#LIC_FILES_CHKSUM = "file://LICENSE;md5=1e9373ff121f393d20bac6493d67411f"
 
 DEPENDS += "\
     flutter-engine \
