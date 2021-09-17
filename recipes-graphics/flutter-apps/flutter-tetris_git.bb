@@ -46,7 +46,7 @@ do_compile() {
     ENGINE_SDK=${S}/engine_sdk/sdk
 
     cd ${S}
-    flutter --version
+    
     flutter build bundle
     dart ${ENGINE_SDK}/frontend_server.dart.snapshot --aot --tfa --target=flutter --sdk-root ${ENGINE_SDK} --output-dill app.dill lib/main.dart
     ${ENGINE_SDK}/clang_x64/gen_snapshot --deterministic --snapshot_kind=app-aot-elf --elf=libapp.so --strip app.dill
