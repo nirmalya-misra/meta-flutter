@@ -1,4 +1,4 @@
-LICENSE = "CLOSED"
+LICENSE = "MIT"
 
 DEPENDS += "\
     flutter-engine \
