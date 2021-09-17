@@ -45,7 +45,7 @@ PACKAGECONFIG ?= "disable-desktop-embeddings \
                   embedder-for-target \
                   fontconfig \
                   full-dart-sdk \
-                  mode-release \
+                  mode-debug \
                  "
 
 PACKAGECONFIG[asan] = "--asan"
